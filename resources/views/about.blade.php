@@ -6,12 +6,8 @@
 @endsection
 
 @section('content')
-<div class='well logo-well'>
-    <img class='logo-img' src='/img/logo.png' />
-</div>
-
 <div class='about-contents'>
-    @if ($role == "admin")
+    @if (! empty(session('username')) && $role == "admin")
     <dl>
         <p>Build Information</p>
         <dt>Version: {{env('POLR_VERSION')}}</dt>
