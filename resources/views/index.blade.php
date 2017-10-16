@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="col-sm-12 col-md-8 col-lg-6 col-lg-offset-3 col-md-offset-2">
-    <h1 class='title'>{{env('APP_SHORT')}}</h1>
+    <img src="img/logo.png" class="img-responsive" />
 
     <form method='POST' action='/shorten' role='form'>
         <input type='url' autocomplete='off'
