@@ -9,7 +9,9 @@
 
         <!-- Output sign in/sign out buttons appropriately -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="{{ route('index') }}">{{env('APP_SHORT')}}</a>
+            <a class="navbar-brand" href="{{ route('index') }}">
+                <img src="img/icon.png" />
+            </a>
         </div>
 
         <ul id="navbar" class="nav navbar-collapse collapse navbar-nav" id="nbc">

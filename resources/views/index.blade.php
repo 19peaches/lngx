@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="col-sm-12 col-md-8 col-lg-6 col-lg-offset-3 col-md-offset-2">
-    <img src="img/logo.png" class="img-responsive" />
+    <img src="img/logo.png" class=" logo img-responsive" />
 
     <form method='POST' action='/shorten' role='form'>
         <input type='url' autocomplete='off'
