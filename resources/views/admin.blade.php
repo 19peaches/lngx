@@ -95,7 +95,7 @@
 
                 <p>API keys and documentation for developers.</p>
                 <p>
-                    Documentation: <a href="https://docs.lngx.org/api" target="_blank">https://docs.lngx.org</a>
+                    Documentation: <a href="https://docs.lngx.org" target="_blank">https://docs.lngx.org</a>
                 </p>
                 <p>
                     API: <a href="https://api.lngx.org" target="_blank">https://api.lngx.org</a>
