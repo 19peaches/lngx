@@ -2,6 +2,7 @@
 bootstrap/cache/
 storage/
 env
+docs.php
 .env
 .env.bak
 .env.example
